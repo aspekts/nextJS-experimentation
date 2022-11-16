@@ -60,7 +60,7 @@ class App extends React.Component {
           else if(platform == "Xbox") platform = "xbl"
           else if(platform == "PSN") platform = platform.toLowerCase()
           else if(platform == "Mobile") {
-            alert("Mobile Stats are not supported yet. Please check again later");
+            alert("Mobile Stats are not supported yet. Please check again later. Apologies for any inconvenience.");
             return true;
           }
           let res = trn.ApexLegends({
